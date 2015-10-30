@@ -275,6 +275,7 @@ private let UseAuthenticationUISkip = kSecUseAuthenticationUISkip as String
 
 #if os(iOS)
 /** Credential Key Constants */
+@available(iOS 8.0, *)
 private let SharedPassword = kSecSharedPassword as String
 #endif
 
